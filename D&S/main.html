@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller & Yes/No Spinner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Roller 🎲</h1>
+        <div class="dice-box">
+            <p id="dice-result">🎲</p>
+            <button onclick="rollDice()">Roll Dice</button>
+        </div>
+
+        <h1>Yes/No Spinner 🔄</h1>
+        <div class="spinner-container">
+            <div id="spinner">
+                <div class="option yes">YES</div>
+                <div class="option no">NO</div>
+            </div>
+        </div>
+        <button onclick="spinWheel()">Spin</button>
+        <p id="spinner-result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
