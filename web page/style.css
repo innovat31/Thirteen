@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0%;
+    background-color: #96a2a7d9;
+}
+
+h1 {
+    color: #0d1821;
+    background-color: azure;
+}
+
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: #0d1821;
+    color: #F0F4EF;
+}
